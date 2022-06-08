@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(93, 93, 93);
+}
+body{
+    background-image: url("bg.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1000px;
+}
+
+.container{
+    background-color: white;
+    margin: auto;
+    width: 70%;
+    margin-top: 70px;
+    min-height: 500px;
+    border-radius: 30px;
+    border: 2px solid rgb(102, 96, 96);
+    font-size: 26px;
+}
+.container h2{
+    text-align: center;
+    background-color: rgb(211, 248, 236);
+    border-radius: 30px 30px 0 0;
+}
+.container h2 span{
+    color: darkred;
+    text-decoration: underline;
+}
+.container h3 div{
+    background-color: rgb(231, 230, 230);
+    left: 39%;
+    top: 30%;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.player{
+    display: flex;
+}
+.player1{
+    width: 50%;
+}
+.player2{
+    width: 50%;
+}
+.player-name{
+    position: relative;
+    margin-top: 25px;
+    font-size: 40px;
+    text-align: center;
+}
+.player-score{
+    margin-top: 50px;
+    font-size: 70px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.player-current-box{
+    background-color: blue;
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+    width: 150px;
+    height: 90px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.current{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.current-score{
+    color: white;
+    font-size: 50px;
+}
+.active{
+    background-color: #ffe4e4;
+}
+.winner1{
+    color: red;
+    font-size: 45px;
+    text-align: center;
+    visibility: hidden;
+}
+.winner2{
+    color: red;
+    font-size: 45px;
+    text-align: center;
+    visibility: hidden;
+}
+button {
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #555;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 300;
+    border: none;
+}
+.btn-new { top: 125px;}
+.btn-roll { top: 403px;}
+.btn-hold { top: 467px;}
+i {
+    color: #EB4D4D; 
+    margin-right: 15px;
+    font-size: 32px;
+    vertical-align: -6px;
+    
+}
+button:hover { 
+    font-weight: 600;
+    transition: margin 0.6s;
+}
+button:hover i { 
+    margin-right: 20px; 
+    transition: margin 0.6s;
+}
+
+button:focus {
+    outline: none;
+}
+.image-1{
+    position: absolute;
+    top: 230px;
+    left: 41%;
+}
+.image-2{
+    position: absolute;
+    top: 230px;
+    left: 51.6%;
+}
